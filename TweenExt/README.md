@@ -14,7 +14,7 @@ local onComplete = function()
   Model:Destroy()
 end
 
-TweenCallback.run(<duration>, <easing function or nil>, callback, onComplete)
+TweenCallback.run(1, nil, callback, onComplete)
 ```
 
 ## Tween
